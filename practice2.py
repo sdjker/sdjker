@@ -35,8 +35,8 @@ def prize(input_list, num_txts_modified, num_txts_modified_modified, order):
         prize_list.append('꽝')
 
 your_number_list = []
-for q in range(7):
-    p = 7 - q
+for q in range(6):
+    p = 6 - q
     print('숫자 입력 가능 횟수 :', p)
     s = input()
     your_number_list.append(int(s))
